@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.demo-styling {
+    background: pink;
+    text-align: center;
+    border: 1px solid red;
+    padding: 1rem 0;
+}
+
+.container {
+    width: calc(100% - 10rem);
+    background-color: lightblue;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+
+/*     FLEXBOX GRID     */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+}
+
+.col-11 {
+    flex: 0 0 calc(100% / 12 * 11);
+}
+
+.col-10 {
+    flex: 0 0 calc(100% / 12 * 10);
+}
+
+.col-9 {
+    flex: 0 0 calc(100% / 12 * 9);
+}
+
+.col-8 {
+    flex: 0 0 calc(100% / 12 * 8);
+}
+
+.col-7 {
+    flex: 0 0 calc(100% / 12 * 7);
+}
+
+.col-6 {
+    flex: 0 0 calc(100% / 12 * 6);
+}
+
+.col-5 {
+    flex: 0 0 calc(100% / 12 * 5);
+}
+
+.col-4 {
+    flex: 0 0 calc(100% / 12 * 4);
+}
+
+.col-3 {
+    flex: 0 0 calc(100% / 12 * 3);
+}
+
+.col-2 {
+    flex: 0 0 calc(100% / 12 * 2);
+}
+
+.col-1 {
+    flex: 0 0 calc(100% / 12 * 1);
+}
+
+
+/*     Media Queries     */
+
+
+/*  For Mobile  */
+
+@media all and (max-width: 680px) {
+    .mobile {
+        flex: 0 0 100%;
+    }
+}
