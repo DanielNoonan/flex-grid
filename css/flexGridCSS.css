@@ -23,6 +23,7 @@
 
 h1 {
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -178,5 +179,28 @@ h1 {
     }
     .large-1 {
         flex: 0 0 calc(100% / 12 * 1);
+    }
+}
+
+
+/****************************************************************/
+
+
+/*Showing the news column for medium+ screens*/
+
+
+/*Mobile first*/
+
+.news-column {
+    display: none;
+    background-color: purple;
+}
+
+
+/*Then for larger screens*/
+
+@media all and (min-width: 640px) {
+    .news-column {
+        display: block;
     }
 }
